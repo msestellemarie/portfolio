@@ -1,0 +1,94 @@
+body {
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+}
+
+.card {
+  padding: 20px 0px 0px 0px;
+}
+
+h1 {
+  padding: 40px;
+  font-family: Playfair Display, sans-serif;
+}
+
+.title {
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+.border {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: rgba(255,255,255,0.7);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+.link, .link:active, .link:hover, .link:focus, .link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,.link:hover {
+  color: #C69f70;
+}
+
+.btn-primary {
+  background-color: #C69f70;
+  border-color: #C69f70;
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+  background-color: #C69f70;
+  border-color: #C69f70;
+  color: white;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  color: #999;
+  padding: 80px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  padding: 10px;
+  padding-bottom: 200px;
+}
+
+.col-lg-4 {
+  padding-bottom: 20px;
+}
